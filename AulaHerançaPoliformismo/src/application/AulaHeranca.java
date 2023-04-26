@@ -8,12 +8,12 @@ public class AulaHeranca {
 
 	public static void main(String[] args) {
 		
-		acount acc = new acount(1001, "Alex", 0.0);
-		BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
+		//acount acc = new acount(1001, "Alex", 0.0);
+		//BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
 		
 		// UPCASTING
 		
-		acount acc1 = bacc;
+		//acount acc1 = bacc;
 		acount acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
 		acount acc3 = new SavingAccount(1004, "Anna", 0.0, 0.01);
 		
